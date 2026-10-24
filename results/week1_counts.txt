@@ -1,0 +1,9 @@
+test
+  NORMAL: 234
+  PNEUMONIA: 390
+train
+  NORMAL: 1341
+  PNEUMONIA: 3875
+val
+  NORMAL: 8
+  PNEUMONIA: 8
