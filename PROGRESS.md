@@ -81,24 +81,19 @@ The improvement was more noticeable for NORMAL queries. The results suggest that
 - Label agreement does not establish clinical similarity or diagnostic accuracy.
 - Patient-level separation has not been verified.
 
-## Week 4: Understanding and Improving the Retrieval System
+## Week 4: Final Review, Comparison, and Documentation
 
-### In Progress
-- Reviewing the retrieval implementation step by step.
-- Studying feature vectors and their relationship to image representations.
-- Understanding Euclidean distance calculations.
-- Learning how NumPy sorting selects the nearest neighbors.
-- Reviewing how retrieval results are stored and evaluated using Pandas.
-- Improving retrieval visualizations and comparison charts.
+**Completed work:**
 
-### Planned
-- Finish reviewing the retrieval implementation.
-- Inspect successful and unsuccessful retrieval examples.
-- Compare retrieval methods through visualizations.
-- Investigate aspect-ratio-preserving preprocessing if time permits.
+- Reviewed the ResNet-18 retrieval implementation and the main concepts behind it, including feature vectors, Euclidean distance, sorting, and nearest-neighbor selection.
+- Reviewed how NumPy performs distance calculations and how Pandas organizes and evaluates retrieval results.
+- Created a comparison chart for the three retrieval methods:
+  - Raw pixel features: 75.3%
+  - Normalized pixel features: 76.9%
+  - Pretrained ResNet-18 embeddings: 80.5%
+- Created two ResNet-18 retrieval visualizations to demonstrate a successful example (80% label agreement@5) and an imperfect example (40% label agreement@5).
+- Updated the project documentation and prepared the final report and source-code package.
 
-## Learning Principles
-- Understand the code and methods rather than only running them.
-- Record completed work separately from planned work.
-- Do not mark a task complete until it has actually been done.
-- Prioritize a clear, manageable and reproducible project.
+**Final project status:**
+
+The experimental implementation and visualizations are complete. The final report and source-code package have been prepared for submission.
